@@ -1,0 +1,31 @@
+자바 모토 //회사에서 잘안씀 Java는 화면만들기 잘 안씀  지금은 화면이벤트 만들기..DB연결을 위해
+Write Ones Run Anywhere
+
+자바GUI
+	-1.1 : AWT // 버튼 운영체제 따름 리눅스에서 리눅스 버튼으로 바뀜
+	
+	-1.2 : Swing // 운영체제에 따르지않고 모양이 동일
+	
+swing 
+	 - os 구별 없이 모양 동일
+	 - 화면에 관한 클래스와 메소드 다양함
+	 - 일반적으로 클래스명 앞에 J만 붙이면 됨	 
+	 
+
+화면 요소 : Component(버튼, 라벨, 텍스트)
+	- 붙을 수 있는 요소 : Container
+					( Window / Frame / Panel / .....)
+					
+					
+					
+Layout (배치: Container에 붙이는 방식)
+	- FlowLayout
+	'윗줄 상단에 한줄로 배치
+	'컴포넌트의 크기가 고정 (버튼,라벨,텍스트)
+- GridLayout
+	'행과 열에 맞춰서 배치
+	'컴포넌트의 크기가 변경
+-BorderLayout
+	'CENTER, NORTH, SOUTH, WEST, EAST 영역에 배치
+	'컴포넌트의 크기가 변경
+	'
